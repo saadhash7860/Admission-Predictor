@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<div class="content">
+    <center><h1>University Admission Prediction</h1></center>
+<style>
+    body {
+      background-image: url('https://www.careerindia.com/img/2018/06/1-1529743825.jpg');
+    }
+    </style>
+</div>
+    
+<div class="form">
+    <form action="/predict" method="post"> 
+        <label for="GRE Score">Enter your GRE Score: </label>
+        <input type="number" name="Gre_Score"  placeholder="GRE Score">
+        <label for="TOEFL Score">Enter your TOEFL Score: </label>
+        <input type="number" name="TOEFL_core" placeholder="TOEFL Score" >
+        <label for=" University Rating">Enter your University Rating: </label>
+        <input type="number" name="University_Rating" placeholder="University Rating">
+        <label for="SOP">Enter your SOP:</label>
+        <input type="number" name="sop"placeholder="SOP">
+        <label for="LOR">Enter your LOR:</label>
+        <input type="number" name="lor" placeholder="LOR">
+        <label for="CGPA">Enter your CGPA Value:</label>
+        <input type="number" name="cgpa" placeholder="CGPA">
+        <label for="Research">Enter your Research Value:</label>
+        <input type="number" name="research" placeholder="Research">
+        <input type="submit" value="predict">
+    </form>
+</div>
+
+</body>
+</html>
