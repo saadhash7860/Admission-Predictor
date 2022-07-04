@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<div class="content">
+    <center><h1>University Admission Prediction</h1></center>
+<style>
+    body {
+      background-image: url('https://www.careerindia.com/img/2018/06/1-1529743825.jpg');
+    }
+    </style>
+    
+<div class="form">
+    <form action="/predict" method="POST"> 
+        <input name="gre score" type="number"  placeholder="gre score"><br>
+        <input name="toefl score" type="number" placeholder="toefl score" ><br>
+        <input name="university rating" type="number" placeholder="university rating"><br>
+        <input name="sop" type="number"placeholder="sop"><br>
+        <input name="lor" type="number" placeholder="lor"><br>
+        <input name="cgpa" type="number"placeholder="cgpa"><br>
+        <input name="research" type="number" placeholder="research"><br>
+        <input type="submit" value="predict">
+    </form>
+</div>
+</div>
+
+</body>
+</html>
